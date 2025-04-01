@@ -1,0 +1,5 @@
+{
+  "resource": "/get-all-users",
+  "path": "/get-all-users",
+  "httpMethod": "GET"
+}

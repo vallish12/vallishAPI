@@ -1,0 +1,5 @@
+{
+  "resource": "/get-user-details",
+  "path": "/get-user-details",
+  "httpMethod": "GET"
+}
