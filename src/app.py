@@ -10,6 +10,7 @@ logger.setLevel(logging.INFO)
 
 def lambda_handler(event, context):
     endpoint = event['path']
+    print('Hello world!')
     logger.info(f"Received request for endpoint: {endpoint}")
     if endpoint == '/get-all-users':
         #implement your logic
