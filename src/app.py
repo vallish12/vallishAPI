@@ -7,7 +7,7 @@ logger.setLevel(logging.INFO)
 
 
 
-
+print('hi vallish')
 def lambda_handler(event, context):
     endpoint = event['path']
     print('Hello world!')
