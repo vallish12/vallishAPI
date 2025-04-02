@@ -1,5 +1,7 @@
 {
-  "resource": "/get-user-details",
+  "httpMethod": "GET",
   "path": "/get-user-details",
-  "httpMethod": "GET"
+  "queryStringParameters": {
+    "user_id": "123"
+  }
 }
