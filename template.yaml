@@ -30,6 +30,21 @@ Resources:
           Properties:
             Path: /get-user-details
             Method: get
+        createuserdetails:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /create-user
+            Method: post
+        updateuserdetails:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /update-user
+            Method: put
+        deleteuserdetails:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: "/delete-user"
+            Method: DELETE
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function

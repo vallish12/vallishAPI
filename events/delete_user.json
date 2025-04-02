@@ -1,0 +1,5 @@
+{
+  "httpMethod": "DELETE",
+  "path": "/delete-user",
+  "body": "{\"user_id\": \"123\"}"
+}
