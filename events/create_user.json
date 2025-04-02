@@ -1,0 +1,5 @@
+{
+  "httpMethod": "POST",
+  "path": "/create-user",
+  "body": "{\"user_id\": \"123\", \"name\": \"John Doe\", \"email\": \"john@example.com\"}"
+}
